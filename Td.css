@@ -1,0 +1,134 @@
+/* Td.css */
+
+body {
+    background-color: #f5f5f5; /* Light background for the entire app */
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: white; /* White background for card */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 500px; /* Max width for the card */
+}
+
+.card-title {
+    color: #333; /* Dark text color */
+    margin-bottom: 20px;
+    font-size: 24px; /* Title font size */
+}
+
+input[type='text'], 
+input[type='datetime-local'] {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding for inputs */
+    margin: 10px 0; /* Margin for spacing */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded borders */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+input[type='text']:focus,
+input[type='datetime-local']:focus {
+    border-color: #4A90E2; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+.add-button {
+    background-color: #4A90E2; /* Blue background for button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.add-button:hover {
+    background-color: #357ABD; /* Darker blue on hover */
+}
+
+.todo-item {
+    background-color: #f9f9f9; /* Light background for todo items */
+    border: 1px solid #e0e0e0; /* Border for todo items */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside todo item */
+    margin: 10px 0; /* Margin between todo items */
+    transition: box-shadow 0.3s; /* Smooth transition for hover */
+}
+
+.todo-item:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+}
+
+.delete-button {
+    background-color: #E94E77; /* Red background for delete button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Padding for delete button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.delete-button:hover {
+    background-color: #D23659; /* Darker red on hover */
+}
+body{
+    background: url('./Manhaimg/Background.jpg');
+}
+.todo-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .todo-item h5 {
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .edit-btn, .delete-btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .delete-btn {
+    background-color: #f44336; /* Red */
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
